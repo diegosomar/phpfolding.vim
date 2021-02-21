@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+s:save_cpo	ftplugin/php/phpfolding.vim	/^let s:save_cpo = &cpo$/;"	v
+loaded_phpfolding	ftplugin/php/phpfolding.vim	/^let loaded_phpfolding = 1$/;"	v
+g:DisableAutoPHPFolding	ftplugin/php/phpfolding.vim	/^	let g:DisableAutoPHPFolding = 0$/;"	v
+g:DisablePHPFoldingClass	ftplugin/php/phpfolding.vim	/^let g:DisablePHPFoldingClass = get(g:, 'DisablePHPFoldingClass', 1)$/;"	v
+EnableFastPHPFolds	ftplugin/php/phpfolding.vim	/^command! EnableFastPHPFolds call <SID>EnableFastPHPFolds()$/;"	c
+EnablePHPFolds	ftplugin/php/phpfolding.vim	/^command! -nargs=* EnablePHPFolds call <SID>EnablePHPFolds(<f-args>)$/;"	c
+DisablePHPFolds	ftplugin/php/phpfolding.vim	/^command! DisablePHPFolds call <SID>DisablePHPFolds()$/;"	c
+g:phpDocIncludedPostfix	ftplugin/php/phpfolding.vim	/^let g:phpDocIncludedPostfix = '**'$/;"	v
+g:phpDocBlockIncludedPostfix	ftplugin/php/phpfolding.vim	/^let g:phpDocBlockIncludedPostfix = '**#@+'$/;"	v
+g:searchPhpDocLineCount	ftplugin/php/phpfolding.vim	/^let g:searchPhpDocLineCount = 1$/;"	v
+g:searchEmptyLinesPostfixing	ftplugin/php/phpfolding.vim	/^let g:searchEmptyLinesPostfixing = 1$/;"	v
+s:synIDattr_exists	ftplugin/php/phpfolding.vim	/^let s:synIDattr_exists = exists('*synIDattr')$/;"	v
+s:TRUE	ftplugin/php/phpfolding.vim	/^let s:TRUE = 1$/;"	v
+s:FALSE	ftplugin/php/phpfolding.vim	/^let s:FALSE = 0$/;"	v
+s:MODE_CREATE_FOLDS	ftplugin/php/phpfolding.vim	/^let s:MODE_CREATE_FOLDS = 1$/;"	v
+s:MODE_REMEMBER_FOLD_SETTINGS	ftplugin/php/phpfolding.vim	/^let s:MODE_REMEMBER_FOLD_SETTINGS = 2$/;"	v
+s:FOLD_WITH_PHPDOC	ftplugin/php/phpfolding.vim	/^let s:FOLD_WITH_PHPDOC = 1$/;"	v
+s:FOLD_WITHOUT_PHPDOC	ftplugin/php/phpfolding.vim	/^let s:FOLD_WITHOUT_PHPDOC = 2$/;"	v
+s:SEARCH_PAIR_START_FIRST	ftplugin/php/phpfolding.vim	/^let s:SEARCH_PAIR_START_FIRST = 1$/;"	v
+s:SEARCH_PAIR_IMMEDIATELY	ftplugin/php/phpfolding.vim	/^let s:SEARCH_PAIR_IMMEDIATELY = 2$/;"	v
+EnableFastPHPFolds	ftplugin/php/phpfolding.vim	/^function! s:EnableFastPHPFolds() " {{{$/;"	f
+EnablePHPFolds	ftplugin/php/phpfolding.vim	/^function! s:EnablePHPFolds(...) " {{{$/;"	f
+DisablePHPFolds	ftplugin/php/phpfolding.vim	/^function! s:DisablePHPFolds() " {{{$/;"	f
+PHPCustomFolds	ftplugin/php/phpfolding.vim	/^function! s:PHPCustomFolds() " {{{$/;"	f
+PHPFoldPureBlock	ftplugin/php/phpfolding.vim	/^function! s:PHPFoldPureBlock(startPattern, ...) " {{{$/;"	f
+PHPFoldMarkers	ftplugin/php/phpfolding.vim	/^function! s:PHPFoldMarkers(startPattern, endPattern, ...) " {{{$/;"	f
+PHPFoldProperties	ftplugin/php/phpfolding.vim	/^function! s:PHPFoldProperties(startPattern, endPattern, ...) " {{{$/;"	f
+HandleFold	ftplugin/php/phpfolding.vim	/^function! s:HandleFold() " {{{$/;"	f
+FindPureBlockStart	ftplugin/php/phpfolding.vim	/^function! s:FindPureBlockStart(startPattern) " {{{$/;"	f
+FindPatternStart	ftplugin/php/phpfolding.vim	/^function! s:FindPatternStart(startPattern) " {{{$/;"	f
+FindOptionalPHPDocComment	ftplugin/php/phpfolding.vim	/^function! s:FindOptionalPHPDocComment() " {{{$/;"	f
+FindPureBlockEnd	ftplugin/php/phpfolding.vim	/^function! s:FindPureBlockEnd(startPair, endPair, searchStartPairFirst, ...) " {{{$/;"	f
+FindPatternEnd	ftplugin/php/phpfolding.vim	/^function! s:FindPatternEnd(endPattern) " {{{$/;"	f
+PHPFoldUse	ftplugin/php/phpfolding.vim	/^function! s:PHPFoldUse() " {{{$/;"	f
+PHPFoldText	ftplugin/php/phpfolding.vim	/^function! PHPFoldText() " {{{$/;"	f
+SkipMatch	ftplugin/php/phpfolding.vim	/^function! SkipMatch() " {{{$/;"	f
